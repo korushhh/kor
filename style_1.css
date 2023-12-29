@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Vasir';
+    src: url('font/Vasir.woff2') format('woff2');
+}
+
+body {
+    background-color: #db369c63;
+    margin: 0;
+    font-family: 'Vasir', sans-serif;
+    text-align: right;
+}
+
+ol {
+    list-style-type: persian;
+    padding-right: 20px; 
+    
+}
+
+h1, h2, h3 {
+    font-family: 'Vasir', sans-serif; 
+    color: #333;
+    text-align: right;
+}
+.list-container {
+    
+    direction: rtl; 
+    padding: 10px;
+    border: 1px solid #000;
+    width: 200px; 
+  }
+  .list-item {
+    
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: #f2f2f2; 
+  }
+  
